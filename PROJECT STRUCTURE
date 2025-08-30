@@ -1,0 +1,14 @@
+resume-shortlisting-nlp/
+│── app.py                 # Streamlit dashboard
+│── jd_resume_match.py     # Core logic (similarity, preprocessing)
+│── requirements.txt       # Dependencies
+│── README.md              # Project overview (VERY important)
+│── data/
+│    ├── sample_jd.txt
+│    ├── sample_resume1.pdf
+│    ├── sample_resume2.pdf
+│── utils/
+│    ├── text_extraction.py
+│    ├── preprocess.py
+│── models/                # (optional) pretrained embeddings
+│── .gitignore
